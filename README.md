@@ -1,4 +1,5 @@
 # COMP2521_H17A
-A place to share all tut code for UNSW's COMP2521 H17A class. Linked by week below:
+A place to share all tut code for UNSW's COMP2521 H17A class.
 
-[Week 1:](week01) linked lists
+Organised by week:
+* [Week 1:](week01) linked lists
