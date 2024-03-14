@@ -5,6 +5,7 @@
 // Analyse the time complexity of your algorithm.
 
 // brute force solution from week 2
+// O(n^2)
 bool twoSum(int *arr, int size, int x) {
 	for (int i = 0; i < size; i++) {
 		for (int j = i + 1; j < size; j++) {
@@ -17,7 +18,15 @@ bool twoSum(int *arr, int size, int x) {
 }
 
 // improved AVL tree solution
+// O(n log n)
 bool twoSum(int *arr, int size, int x) {
-	// TODO
-	return false;
+	AVL t = AVLNew();					// 1
+	for (int i = 0; i < size; i++) {	// n
+		int diff = x - arr[i];			// 1 * n
+		if (AVLSearch(t, diff) == true) {	// (log n) * n
+			return true;				// 1 * n
+		}
+		AVLInsert(t, arr[i]);			// (log n) * n
+	}
+	return false;						// 1
 }
