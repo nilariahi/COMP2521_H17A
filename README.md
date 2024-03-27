@@ -6,3 +6,4 @@ Organised by week:
 * [Week 2:](week02) recursion and time complexity analysis
 * [Week 4:](week04) abstract data types (ADTs) and binary search trees (BSTs)
 * [Week 5:](week05) style and AVL trees
+* [Week 7:)(week07) graphs (part 1)

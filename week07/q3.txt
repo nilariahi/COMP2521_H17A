@@ -1,0 +1,9 @@
+Suppose you have
+	n variables (x_1, x_2, ..., x_n)
+	m equalities of the form x_i = x_j (where i != j)
+	j inequalities of the form x_i = x_j where (i != j)
+Come up with an algorithm to determine whetehr this system
+of equations is consistent or contradictory.
+
+Solution:
+	TODO
